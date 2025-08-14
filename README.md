@@ -1,6 +1,6 @@
 # Edwin's Portfolio
 
-I built this project to practice the basics I have learned at PLP, to tell my story, and to create a theme that defines who I am.I'm just a simple guy who enjoys working with networks and gets excited by the flow of data packets—and Linux administration.  
+I built this project to practice the basics I have learned at the power learn project,as a way to tell my story to tell my story, with a theme that defines me.I'm just a simple guy who enjoys working with networks and gets excited by the flow of data packets—and Linux administration.  
 Just putting it out there: I use Linux, by the way.  
 Recently, I've become interested in the DevOps path and have been taking a course by Nana (Techworld with Nana).
 
