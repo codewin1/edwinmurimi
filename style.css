@@ -423,18 +423,37 @@ section {
 /* Projects Section */
 .projects-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
-    gap: var(--spacing-xl);
-    margin-bottom: var(--spacing-xl);
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--spacing-lg);
+    margin: 0 auto var(--spacing-xl);
+    padding: 0 var(--spacing-md);
+    max-width: 1400px;
+}
+
+/* Responsive breakpoints for projects grid */
+@media (max-width: 1200px) {
+    .projects-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
 }
 
 .project-card {
     background-color: var(--medium-gray);
-    border-radius: var(--radius-xl);
+    border-radius: var(--radius-lg);
     overflow: hidden;
     border: 1px solid var(--light-gray);
     transition: all var(--transition-normal);
     animation: slideUp 0.6s ease-out;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .project-card:hover {
@@ -446,12 +465,12 @@ section {
 .project-image {
     position: relative;
     overflow: hidden;
-    height: 250px;
+    height: 200px;
 }
 
 .project-image img {
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
     object-fit: cover;
     transition: transform var(--transition-slow);
 }
