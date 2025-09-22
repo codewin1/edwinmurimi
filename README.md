@@ -6,8 +6,7 @@ Recently, I've become interested in the DevOps path and have been taking a cours
 
 ## Have a peek first..👀 
 
-[Click](https://codewin1.github.io/plp-hackathon/)
-
+[Click](https://github.com/codewin1/edwinmurimi)
 
 ## What I'm going to cover here
 
