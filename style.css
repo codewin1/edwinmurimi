@@ -22,7 +22,7 @@
     --font-weight-normal: 400;
     --font-weight-medium: 500;
     --font-weight-semibold: 600;
-    --font-weight-bold: 700;
+    --font-weight-bold: 600;
     
     /* Spacing */
     --spacing-xs: 0.5rem;
@@ -151,6 +151,7 @@ body {
 
 .nav-logo a:hover {
     color: var(--primary-yellow);
+    
 }
 
 .nav-menu {
@@ -216,7 +217,7 @@ body {
 .bar {
     width: 25px;
     height: 3px;
-    background-color: var(--primary-yellow);
+    /*background-color: var(--primary-yellow);*/
     transition: all var(--transition-normal);
 }
 
@@ -287,11 +288,12 @@ body {
     position: relative;
     display: inline-block;
     margin-bottom: var(--spacing-lg);
+    
 }
 
 .profile-photo img {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     border: 4px solid var(--primary-yellow);
     box-shadow: var(--shadow-glow);
