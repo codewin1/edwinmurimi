@@ -4,7 +4,7 @@ I built this project to practice the basics I have learned at the power learn pr
 Just putting it out there: I use Linux, by the way.  
 Recently, I've become interested in the DevOps path and have been taking a course by Nana (Techworld with Nana).
 
-## Have a peek first..👀 
+## Have a peek first..👀
 
 [Click](https://codewin1.github.io/edwinmurimi/)
 
